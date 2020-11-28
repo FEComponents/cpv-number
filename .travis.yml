@@ -9,19 +9,21 @@ git:
 install:
   - yarn --frozen-lockfile
   - yarn test
+before_script:
+  - chmod +x build.sh  notify.sh
 script:
   - ./build.sh
 after_script:
   - ./notify.sh
 cache: yarn
 deploy:
-  - provider: pages # you may delete this provider if you don't need deployment of github pages
-    local-dir: docs # https://docs.travis-ci.com/user/deployment/packagecloud/#specify-package-folder
-    github-token: 46d2211730a0fceff92cd842a60f651c458d1c3d
-    skip-cleanup: true
-    keep-history: true
-    on:
-      branch: main
+  # - provider: pages # you may delete this provider if you don't need deployment of github pages
+  #   local-dir: docs # https://docs.travis-ci.com/user/deployment/packagecloud/#specify-package-folder
+  #   github-token: d736bb2958e912593eefe9424e683774005a563e
+  #   skip-cleanup: true
+  #   keep-history: true
+  #   on:
+  #     branch: main
   - provider: npm
     email: yuwangifeng@163.com # use your own email
     api_key: elX5TojNm-s9zn80MqjN2w

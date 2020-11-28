@@ -1,10 +1,10 @@
-# import-modal
+# cpv-number
 
-[![Build Status](https://badgen.net/travis/yuwangi/import-modal/master)](https://travis-ci.com/yuwangi/import-modal)
-[![NPM Download](https://badgen.net/npm/dm/@yuwangi/import-modal)](https://www.npmjs.com/package/@yuwangi/import-modal)
-[![NPM Version](https://badge.fury.io/js/%40yuwangi%2Fimport-modal.svg)](https://www.npmjs.com/package/@yuwangi/import-modal)
-[![NPM License](https://badgen.net/npm/license/@yuwangi/import-modal)](https://github.com/yuwangi/import-modal/blob/master/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yuwangi/import-modal/pulls)
+[![Build Status](https://badgen.net/travis/FEComponents/cpv-number/main)](https://travis-ci.com/fe-components/cpv-number)
+[![NPM Download](https://badgen.net/npm/dm/@fe-components/cpv-number)](https://www.npmjs.com/package/@fe-components/cpv-number)
+[![NPM Version](https://badge.fury.io/js/%40fe-components%2Fcpv-number.svg)](https://www.npmjs.com/package/@fe-components/cpv-number)
+[![NPM License](https://badgen.net/github/license/FEComponents/cpv-number)](https://github.com/fe-components/cpv-number/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/fe-components/cpv-number/pulls)
 [![Automated Release Notes by gren](https://img.shields.io/badge/%F0%9F%A4%96-release%20notes-00B2EE.svg)](https://github-tools.github.io/github-release-notes/)
 
 Auto requesting by iview👏
@@ -22,7 +22,7 @@ Auto requesting by iview👏
 
 ## Introduction
 
-通用上传文件模态框
+数字格式输入框
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -40,7 +40,7 @@ Auto requesting by iview👏
 
 ## Links
 
-- [docs](https://yuwangi.github.io/import-modal/)
+- [docs](https://yuwangi.github.io/cpv-number/)
 
 [⬆ Back to Top](#table-of-contents)
 
