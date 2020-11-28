@@ -1,6 +1,6 @@
 # cpv-number
 
-[![Build Status](https://badgen.net/travis/FEComponents/cpv-number/main)](https://travis-ci.com/fe-components/cpv-number)
+[![Build Status](https://travis-ci.org/FEComponents/cpv-number.svg?branch=main)](https://travis-ci.com/fe-components/cpv-number)
 [![NPM Download](https://badgen.net/npm/dm/@fe-components/cpv-number)](https://www.npmjs.com/package/@fe-components/cpv-number)
 [![NPM Version](https://badge.fury.io/js/%40fe-components%2Fcpv-number.svg)](https://www.npmjs.com/package/@fe-components/cpv-number)
 [![NPM License](https://badgen.net/github/license/FEComponents/cpv-number)](https://github.com/fe-components/cpv-number/blob/main/LICENSE)
