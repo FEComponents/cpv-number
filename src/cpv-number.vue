@@ -31,6 +31,9 @@ export default {
     },
     formData: {
       type: Object
+    },
+    modalType: {
+      type: String
     }
   },
   computed: {
