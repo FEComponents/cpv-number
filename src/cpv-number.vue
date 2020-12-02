@@ -12,19 +12,19 @@
         :step="childProp.step"
         :placeholder="childProp.placeholder"
       ></InputNumber>
-      <span v-if="childProp.unit" style="margin-left: 5px;">{{
-        childProp.unit
-      }}</span>
     </template>
     <template v-else>
       {{ propObj }}
     </template>
+    <span v-if="childProp.unit" style="margin-left:5px;">{{
+      childProp.unit
+    }}</span>
   </FormItem>
 </template>
 
 <script>
 export default {
-  name: 'CPVnumber',
+  name: 'CpvNumber',
   props: {
     childProp: {
       type: Object
@@ -37,6 +37,13 @@ export default {
     }
   },
   computed: {
+    propObj() {
+      let childProp = this.childProp
+      let formData = this.formData
+      return formData[(childProp?.textOption?.prop)]
+        ? formData[childProp.textOption.prop]
+        : formData[childProp.prop]
+    },
     curProp() {
       let curProp = this.childProp
       if (curProp.isChildProp) {
@@ -53,7 +60,7 @@ export default {
           {
             required: true,
             type: 'number',
-            message: '请选择' + childProp.name,
+            message: '请输入' + childProp.name,
             trigger: 'blur'
           }
         ]
